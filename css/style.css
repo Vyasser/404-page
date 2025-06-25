@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    background-image: url(../photos/404Error.png);
+    background-color: rgb(245, 243, 240);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.btn-outline-orange {
+
+    padding: 10px 25px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 22%;
+    right: 47%;
+    border: 2px solid var(--bs-orange);
+    color: var(--bs-orange);
+    transition: all 0.3s ease;
+}
+.btn-outline-orange:hover {
+    background-color: var(--bs-orange);
+    color: white;
+}
